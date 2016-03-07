@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.5)  7 MAR 2016 18:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.5)  8 MAR 2016 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,7 @@ entering extended mode
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 ! Undefined control sequence.
-l.3 \pgf@circ@Rlen
+l.7 \pgf@circ@Rlen
                    = \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22,14 +22,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \pgf@circ@Rlen =
+l.7 \pgf@circ@Rlen =
                      \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.3 \pgf@circ@Rlen = \pgfkeysvalueof
+l.7 \pgf@circ@Rlen = \pgfkeysvalueof
                                     {/tikz/circuitikz/bipoles/length}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -69,14 +69,14 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--6
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--10
 []
  []
 
 \ResUp=\skip41
 \ResRight=\skip42
 ! Undefined control sequence.
-l.15 \ctikzset
+l.19 \ctikzset
               {bipoles/romanianCurrentSource/height/.initial=.60}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -91,7 +91,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \ctikzset{b
+l.19 \ctikzset{b
                 ipoles/romanianCurrentSource/height/.initial=.60}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -146,7 +146,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.16 \ctikzset
+l.20 \ctikzset
               {bipoles/romanianCurrentSource/width/.initial=.60}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -203,12 +203,12 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 15--17
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--21
 []
  []
 
 ! Undefined control sequence.
-l.19 \pgfcircdeclarebipole
+l.23 \pgfcircdeclarebipole
                           {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -217,7 +217,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21 	{\ctikzvalof
+l.25 	{\ctikzvalof
                   {bipoles/romanianCurrentSource/height}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -232,7 +232,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 	{\ctikzvalof{b
+l.25 	{\ctikzvalof{b
                     ipoles/romanianCurrentSource/height}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -295,7 +295,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.25 	{\ctikzvalof
+l.29 	{\ctikzvalof
                   {bipoles/romanianCurrentSource/height}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -340,7 +340,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.26 	{\ctikzvalof
+l.30 	{\ctikzvalof
                   {bipoles/romanianCurrentSource/width}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -384,7 +384,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.29 		\pgfsetlinewidth
+l.33 		\pgfsetlinewidth
                        {\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -393,7 +393,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.29 		\pgfsetlinewidth{\pgfkeysvalueof
+l.33 		\pgfsetlinewidth{\pgfkeysvalueof
                                        {/tikz/circuitikz/bipoles/thickness}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -436,7 +436,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.29 ...itikz/bipoles/thickness}\pgfstartlinewidth
+l.33 ...itikz/bipoles/thickness}\pgfstartlinewidth
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -445,12 +445,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--30
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--34
 []
  []
 
 ! Undefined control sequence.
-l.32 		\pgfextracty
+l.36 		\pgfextracty
                    {\ResUp}{\northeast}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -461,7 +461,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.32 		\pgfextracty{\ResUp}
+l.36 		\pgfextracty{\ResUp}
                            {\northeast}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -470,7 +470,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.32 		\pgfextracty{\ResUp}
+l.36 		\pgfextracty{\ResUp}
                            {\northeast}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -480,7 +480,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.32 		\pgfextracty{\ResUp}{\northeast
+l.36 		\pgfextracty{\ResUp}{\northeast
                                       }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -489,7 +489,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.33 		\pgfextractx
+l.37 		\pgfextractx
                    {\ResRight}{\southwest}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -500,7 +500,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.33 		\pgfextractx{\ResRight}
+l.37 		\pgfextractx{\ResRight}
                               {\southwest}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -509,7 +509,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.33 		\pgfextractx{\ResRight}
+l.37 		\pgfextractx{\ResRight}
                               {\southwest}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -519,7 +519,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.33 		\pgfextractx{\ResRight}{\southwest
+l.37 		\pgfextractx{\ResRight}{\southwest
                                          }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -528,7 +528,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 		\pgfpathellipse
+l.40 		\pgfpathellipse
                       {\pgfpointorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -537,7 +537,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 		\pgfpathellipse{\pgfpointorigin
+l.40 		\pgfpathellipse{\pgfpointorigin
                                       }{\pgfpoint{0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -546,7 +546,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 		\pgfpathellipse{\pgfpointorigin}{\pgfpoint
+l.40 		\pgfpathellipse{\pgfpointorigin}{\pgfpoint
                                                  {0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -561,7 +561,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 ...gfpathellipse{\pgfpointorigin}{\pgfpoint{0
+l.40 ...gfpathellipse{\pgfpointorigin}{\pgfpoint{0
                                                   }{\ResUp}}{\pgfpoint{\ResR...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -571,7 +571,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.36 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
+l.40 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
                                                   }{\pgfpoint{\ResRight}{0}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -580,7 +580,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.36 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
+l.40 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
                                                   }{\pgfpoint{\ResRight}{0}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -590,7 +590,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.36 ...intorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint
+l.40 ...intorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint
                                                   {\ResRight}{0}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -601,7 +601,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.36 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
+l.40 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
                                                   {0}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -610,7 +610,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.36 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
+l.40 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
                                                   {0}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -621,12 +621,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 36--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
 [] 
  []
 
 ! Undefined control sequence.
-l.41 		\pgfmoveto
+l.45 		\pgfmoveto
                  {\pgfpoint{1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -635,7 +635,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.41 		\pgfmoveto{\pgfpoint
+l.45 		\pgfmoveto{\pgfpoint
                            {1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -650,7 +650,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 		\pgfmoveto{\pgfpoint{1
+l.45 		\pgfmoveto{\pgfpoint{1
                              .0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -662,7 +662,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.41 		\pgfmoveto{\pgfpoint{1.0\ResRight}
+l.45 		\pgfmoveto{\pgfpoint{1.0\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -671,7 +671,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.41 		\pgfmoveto{\pgfpoint{1.0\ResRight}
+l.45 		\pgfmoveto{\pgfpoint{1.0\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -686,7 +686,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.41 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
+l.45 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-1, 0)
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -695,7 +695,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.41 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
+l.45 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-1, 0)
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -705,7 +705,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.42 		\pgflineto
+l.46 		\pgflineto
                  {\pgfpoint{0.1\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -714,7 +714,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.42 		\pgflineto{\pgfpoint
+l.46 		\pgflineto{\pgfpoint
                            {0.1\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -728,7 +728,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.42 		\pgflineto{\pgfpoint{0.1\ResRight}
+l.46 		\pgflineto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -737,7 +737,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.42 		\pgflineto{\pgfpoint{0.1\ResRight}
+l.46 		\pgflineto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -752,7 +752,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.42 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
+l.46 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -761,7 +761,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.42 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
+l.46 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -771,7 +771,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.43 		\pgflineto
+l.47 		\pgflineto
                  {\pgfpoint{0.3\ResRight}{-0.25\ResUp}} %Desenam unul din ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -780,7 +780,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.43 		\pgflineto{\pgfpoint
+l.47 		\pgflineto{\pgfpoint
                            {0.3\ResRight}{-0.25\ResUp}} %Desenam unul din ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -794,7 +794,7 @@ Missing character: There is no 3 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.43 		\pgflineto{\pgfpoint{0.3\ResRight}
+l.47 		\pgflineto{\pgfpoint{0.3\ResRight}
                                          {-0.25\ResUp}} %Desenam unul din ca...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -803,7 +803,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.43 		\pgflineto{\pgfpoint{0.3\ResRight}
+l.47 		\pgflineto{\pgfpoint{0.3\ResRight}
                                          {-0.25\ResUp}} %Desenam unul din ca...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -820,7 +820,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.43 ...ineto{\pgfpoint{0.3\ResRight}{-0.25\ResUp}
+l.47 ...ineto{\pgfpoint{0.3\ResRight}{-0.25\ResUp}
                                                   } %Desenam unul din capete
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -829,7 +829,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.43 ...ineto{\pgfpoint{0.3\ResRight}{-0.25\ResUp}
+l.47 ...ineto{\pgfpoint{0.3\ResRight}{-0.25\ResUp}
                                                   } %Desenam unul din capete
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -839,7 +839,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.44 		\pgfmoveto
+l.48 		\pgfmoveto
                  {\pgfpoint{0.1\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -848,7 +848,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.44 		\pgfmoveto{\pgfpoint
+l.48 		\pgfmoveto{\pgfpoint
                            {0.1\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -862,7 +862,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.44 		\pgfmoveto{\pgfpoint{0.1\ResRight}
+l.48 		\pgfmoveto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -871,7 +871,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.44 		\pgfmoveto{\pgfpoint{0.1\ResRight}
+l.48 		\pgfmoveto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -886,7 +886,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.44 ...fmoveto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
+l.48 ...fmoveto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-0....
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -895,7 +895,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.44 ...fmoveto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
+l.48 ...fmoveto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-0....
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -905,7 +905,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.45 	    \pgflineto
+l.49 	    \pgflineto
                     {\pgfpoint{0.3\ResRight}{0.25\ResUp}}  %Desenam celalalt...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -914,7 +914,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 	    \pgflineto{\pgfpoint
+l.49 	    \pgflineto{\pgfpoint
                               {0.3\ResRight}{0.25\ResUp}}  %Desenam celalalt...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -928,7 +928,7 @@ Missing character: There is no 3 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.45 	    \pgflineto{\pgfpoint{0.3\ResRight}
+l.49 	    \pgflineto{\pgfpoint{0.3\ResRight}
                                             {0.25\ResUp}}  %Desenam celalalt...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -937,7 +937,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.45 	    \pgflineto{\pgfpoint{0.3\ResRight}
+l.49 	    \pgflineto{\pgfpoint{0.3\ResRight}
                                             {0.25\ResUp}}  %Desenam celalalt...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -953,7 +953,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.45 ...lineto{\pgfpoint{0.3\ResRight}{0.25\ResUp}
+l.49 ...lineto{\pgfpoint{0.3\ResRight}{0.25\ResUp}
                                                   }  %Desenam celalalt capat
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -962,7 +962,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.45 ...lineto{\pgfpoint{0.3\ResRight}{0.25\ResUp}
+l.49 ...lineto{\pgfpoint{0.3\ResRight}{0.25\ResUp}
                                                   }  %Desenam celalalt capat
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -972,12 +972,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 41--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--50
 []
  []
 
 ! Undefined control sequence.
-l.48 		\pgfmoveto
+l.52 		\pgfmoveto
                  {\pgfpoint{-0.2\ResRight}{0.0\ResUp}}  %Ne pozitionam in (0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -986,7 +986,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 		\pgfmoveto{\pgfpoint
+l.52 		\pgfmoveto{\pgfpoint
                            {-0.2\ResRight}{0.0\ResUp}}  %Ne pozitionam in (0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1001,7 +1001,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 		\pgfmoveto{\pgfpoint{-
+l.52 		\pgfmoveto{\pgfpoint{-
                              0.2\ResRight}{0.0\ResUp}}  %Ne pozitionam in (0...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1014,7 +1014,7 @@ Missing character: There is no 2 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.48 		\pgfmoveto{\pgfpoint{-0.2\ResRight}
+l.52 		\pgfmoveto{\pgfpoint{-0.2\ResRight}
                                           {0.0\ResUp}}  %Ne pozitionam in (0...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1023,7 +1023,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.48 		\pgfmoveto{\pgfpoint{-0.2\ResRight}
+l.52 		\pgfmoveto{\pgfpoint{-0.2\ResRight}
                                           {0.0\ResUp}}  %Ne pozitionam in (0...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1038,7 +1038,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.48 ...moveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
+l.52 ...moveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
                                                   }  %Ne pozitionam in (0.2, 0)
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1047,7 +1047,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.48 ...moveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
+l.52 ...moveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
                                                   }  %Ne pozitionam in (0.2, 0)
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1057,7 +1057,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.49 		\pgflineto
+l.53 		\pgflineto
                  {\pgfpoint{-1.0\ResRight}{0.0\ResUp}}  %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1066,7 +1066,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.49 		\pgflineto{\pgfpoint
+l.53 		\pgflineto{\pgfpoint
                            {-1.0\ResRight}{0.0\ResUp}}  %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1081,7 +1081,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.49 		\pgflineto{\pgfpoint{-1.0\ResRight}
+l.53 		\pgflineto{\pgfpoint{-1.0\ResRight}
                                           {0.0\ResUp}}  %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1090,7 +1090,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.49 		\pgflineto{\pgfpoint{-1.0\ResRight}
+l.53 		\pgflineto{\pgfpoint{-1.0\ResRight}
                                           {0.0\ResUp}}  %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1105,7 +1105,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.49 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.53 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }  %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1114,7 +1114,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.49 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.53 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }  %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1124,7 +1124,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.50 		\pgfmoveto
+l.54 		\pgfmoveto
                  {\pgfpoint{0.0\ResRight}{0.25\ResUp}}  %Ne repozitionam
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1133,7 +1133,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.50 		\pgfmoveto{\pgfpoint
+l.54 		\pgfmoveto{\pgfpoint
                            {0.0\ResRight}{0.25\ResUp}}  %Ne repozitionam
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,7 +1147,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.50 		\pgfmoveto{\pgfpoint{0.0\ResRight}
+l.54 		\pgfmoveto{\pgfpoint{0.0\ResRight}
                                          {0.25\ResUp}}  %Ne repozitionam
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1156,7 +1156,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.50 		\pgfmoveto{\pgfpoint{0.0\ResRight}
+l.54 		\pgfmoveto{\pgfpoint{0.0\ResRight}
                                          {0.25\ResUp}}  %Ne repozitionam
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1172,7 +1172,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.50 ...moveto{\pgfpoint{0.0\ResRight}{0.25\ResUp}
+l.54 ...moveto{\pgfpoint{0.0\ResRight}{0.25\ResUp}
                                                   }  %Ne repozitionam
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1181,7 +1181,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.50 ...moveto{\pgfpoint{0.0\ResRight}{0.25\ResUp}
+l.54 ...moveto{\pgfpoint{0.0\ResRight}{0.25\ResUp}
                                                   }  %Ne repozitionam
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1191,7 +1191,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.51 		\pgflineto
+l.55 		\pgflineto
                  {\pgfpoint{-0.2\ResRight}{0.0\ResUp}}  %Desenam unul din ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1200,7 +1200,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 		\pgflineto{\pgfpoint
+l.55 		\pgflineto{\pgfpoint
                            {-0.2\ResRight}{0.0\ResUp}}  %Desenam unul din ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1215,7 +1215,7 @@ Missing character: There is no 2 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.51 		\pgflineto{\pgfpoint{-0.2\ResRight}
+l.55 		\pgflineto{\pgfpoint{-0.2\ResRight}
                                           {0.0\ResUp}}  %Desenam unul din ca...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1224,7 +1224,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.51 		\pgflineto{\pgfpoint{-0.2\ResRight}
+l.55 		\pgflineto{\pgfpoint{-0.2\ResRight}
                                           {0.0\ResUp}}  %Desenam unul din ca...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1239,7 +1239,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.51 ...lineto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
+l.55 ...lineto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
                                                   }  %Desenam unul din capete
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1248,7 +1248,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.51 ...lineto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
+l.55 ...lineto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}
                                                   }  %Desenam unul din capete
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1258,7 +1258,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.52 		\pgflineto
+l.56 		\pgflineto
                  {\pgfpoint{0.0\ResRight}{-0.25\ResUp}} %Desenam celalat capat
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1267,7 +1267,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.52 		\pgflineto{\pgfpoint
+l.56 		\pgflineto{\pgfpoint
                            {0.0\ResRight}{-0.25\ResUp}} %Desenam celalat capat
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1281,7 +1281,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.52 		\pgflineto{\pgfpoint{0.0\ResRight}
+l.56 		\pgflineto{\pgfpoint{0.0\ResRight}
                                          {-0.25\ResUp}} %Desenam celalat capat
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1290,7 +1290,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.52 		\pgflineto{\pgfpoint{0.0\ResRight}
+l.56 		\pgflineto{\pgfpoint{0.0\ResRight}
                                          {-0.25\ResUp}} %Desenam celalat capat
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1307,7 +1307,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.52 ...ineto{\pgfpoint{0.0\ResRight}{-0.25\ResUp}
+l.56 ...ineto{\pgfpoint{0.0\ResRight}{-0.25\ResUp}
                                                   } %Desenam celalat capat
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1316,7 +1316,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.52 ...ineto{\pgfpoint{0.0\ResRight}{-0.25\ResUp}
+l.56 ...ineto{\pgfpoint{0.0\ResRight}{-0.25\ResUp}
                                                   } %Desenam celalat capat
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1326,12 +1326,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 52--57
 []
  []
 
 ! Undefined control sequence.
-l.55 		\pgfusepath
+l.59 		\pgfusepath
                   {draw}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1346,7 +1346,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 		\pgfusepath{d
+l.59 		\pgfusepath{d
                     raw}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1356,12 +1356,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no w in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 55--57
+Overfull \hbox (20.0pt too wide) in paragraph at lines 59--61
 []
  []
 
 ! Undefined control sequence.
-l.60 \tikzset
+l.64 \tikzset
              {romanianCurrentSource/.style = {\circuitikzbasekey, /tikz/to p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1376,7 +1376,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \tikzset{r
+l.64 \tikzset{r
                omanianCurrentSource/.style = {\circuitikzbasekey, /tikz/to p...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1412,7 +1412,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.60 ...CurrentSource/.style = {\circuitikzbasekey
+l.64 ...CurrentSource/.style = {\circuitikzbasekey
                                                   , /tikz/to path=\romanianC...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1437,7 +1437,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 \TikzBipolePath #1#2->\pgf@circ@bipole@path 
                                             {#1}{#2}
-l.60 ... /tikz/to path=\romanianCurrentSourcepath,
+l.64 ... /tikz/to path=\romanianCurrentSourcepath,
                                                    l=#1}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1470,7 +1470,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no = in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.60 ...kz/to path=\romanianCurrentSourcepath, l=#
+l.64 ...kz/to path=\romanianCurrentSourcepath, l=#
                                                   1}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1479,12 +1479,12 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no 1 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--65
 []
  []
 
 ! Undefined control sequence.
-l.67 \ctikzset
+l.71 \ctikzset
               {bipoles/romanianVoltageSource/height/.initial=.60}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1499,7 +1499,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \ctikzset{b
+l.71 \ctikzset{b
                 ipoles/romanianVoltageSource/height/.initial=.60}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1554,7 +1554,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-l.68 \ctikzset
+l.72 \ctikzset
               {bipoles/romanianVoltageSource/width/.initial=.60}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1611,12 +1611,12 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 67--69
+Overfull \hbox (20.0pt too wide) in paragraph at lines 71--73
 []
  []
 
 ! Undefined control sequence.
-l.71 \pgfcircdeclarebipole
+l.75 \pgfcircdeclarebipole
                           {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1625,7 +1625,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.73 	{\ctikzvalof
+l.77 	{\ctikzvalof
                   {bipoles/romanianVoltageSource/height}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1640,7 +1640,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 	{\ctikzvalof{b
+l.77 	{\ctikzvalof{b
                     ipoles/romanianVoltageSource/height}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1703,7 +1703,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.77 	{\ctikzvalof
+l.81 	{\ctikzvalof
                   {bipoles/romanianVoltageSource/height}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1748,7 +1748,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.78 	{\ctikzvalof
+l.82 	{\ctikzvalof
                   {bipoles/romanianVoltageSource/width}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1792,7 +1792,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.81 		\pgfsetlinewidth
+l.85 		\pgfsetlinewidth
                        {\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1801,7 +1801,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.81 		\pgfsetlinewidth{\pgfkeysvalueof
+l.85 		\pgfsetlinewidth{\pgfkeysvalueof
                                        {/tikz/circuitikz/bipoles/thickness}\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1844,7 +1844,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.81 ...itikz/bipoles/thickness}\pgfstartlinewidth
+l.85 ...itikz/bipoles/thickness}\pgfstartlinewidth
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1853,12 +1853,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 73--82
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--86
 []
  []
 
 ! Undefined control sequence.
-l.84 		\pgfextracty
+l.88 		\pgfextracty
                    {\ResUp}{\northeast}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1869,7 +1869,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.84 		\pgfextracty{\ResUp}
+l.88 		\pgfextracty{\ResUp}
                            {\northeast}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1878,7 +1878,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.84 		\pgfextracty{\ResUp}
+l.88 		\pgfextracty{\ResUp}
                            {\northeast}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1888,7 +1888,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.84 		\pgfextracty{\ResUp}{\northeast
+l.88 		\pgfextracty{\ResUp}{\northeast
                                       }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1897,7 +1897,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.85 		\pgfextractx
+l.89 		\pgfextractx
                    {\ResRight}{\southwest}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1908,7 +1908,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.85 		\pgfextractx{\ResRight}
+l.89 		\pgfextractx{\ResRight}
                               {\southwest}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1917,7 +1917,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.85 		\pgfextractx{\ResRight}
+l.89 		\pgfextractx{\ResRight}
                               {\southwest}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1927,7 +1927,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.85 		\pgfextractx{\ResRight}{\southwest
+l.89 		\pgfextractx{\ResRight}{\southwest
                                          }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1936,7 +1936,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 		\pgfpathellipse
+l.92 		\pgfpathellipse
                       {\pgfpointorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1945,7 +1945,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 		\pgfpathellipse{\pgfpointorigin
+l.92 		\pgfpathellipse{\pgfpointorigin
                                       }{\pgfpoint{0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1954,7 +1954,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 		\pgfpathellipse{\pgfpointorigin}{\pgfpoint
+l.92 		\pgfpathellipse{\pgfpointorigin}{\pgfpoint
                                                  {0}{\ResUp}}{\pgfpoint{\Res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1969,7 +1969,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ...gfpathellipse{\pgfpointorigin}{\pgfpoint{0
+l.92 ...gfpathellipse{\pgfpointorigin}{\pgfpoint{0
                                                   }{\ResUp}}{\pgfpoint{\ResR...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1979,7 +1979,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.88 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
+l.92 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
                                                   }{\pgfpoint{\ResRight}{0}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1988,7 +1988,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.88 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
+l.92 ...ipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}
                                                   }{\pgfpoint{\ResRight}{0}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1998,7 +1998,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.88 ...intorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint
+l.92 ...intorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint
                                                   {\ResRight}{0}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2009,7 +2009,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.88 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
+l.92 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
                                                   {0}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2018,7 +2018,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.88 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
+l.92 ...\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}
                                                   {0}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2029,12 +2029,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--89
+Overfull \hbox (20.0pt too wide) in paragraph at lines 92--93
 [] 
  []
 
 ! Undefined control sequence.
-l.93 		\pgfmoveto
+l.97 		\pgfmoveto
                  {\pgfpoint{1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2043,7 +2043,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.93 		\pgfmoveto{\pgfpoint
+l.97 		\pgfmoveto{\pgfpoint
                            {1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2058,7 +2058,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 		\pgfmoveto{\pgfpoint{1
+l.97 		\pgfmoveto{\pgfpoint{1
                              .0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2070,7 +2070,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.93 		\pgfmoveto{\pgfpoint{1.0\ResRight}
+l.97 		\pgfmoveto{\pgfpoint{1.0\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2079,7 +2079,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.93 		\pgfmoveto{\pgfpoint{1.0\ResRight}
+l.97 		\pgfmoveto{\pgfpoint{1.0\ResRight}
                                          {0.0\ResUp}}   %Ne pozitionam in (-...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2094,7 +2094,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.93 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
+l.97 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-1, 0)
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2103,7 +2103,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.93 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
+l.97 ...fmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-1, 0)
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2113,7 +2113,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.94 		\pgflineto
+l.98 		\pgflineto
                  {\pgfpoint{-1.0\ResRight}{0.0\ResUp}}   %Desenam corpul sag...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2122,7 +2122,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.94 		\pgflineto{\pgfpoint
+l.98 		\pgflineto{\pgfpoint
                            {-1.0\ResRight}{0.0\ResUp}}   %Desenam corpul sag...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2137,7 +2137,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.94 		\pgflineto{\pgfpoint{-1.0\ResRight}
+l.98 		\pgflineto{\pgfpoint{-1.0\ResRight}
                                           {0.0\ResUp}}   %Desenam corpul sag...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2146,7 +2146,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.94 		\pgflineto{\pgfpoint{-1.0\ResRight}
+l.98 		\pgflineto{\pgfpoint{-1.0\ResRight}
                                           {0.0\ResUp}}   %Desenam corpul sag...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2161,7 +2161,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.94 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.98 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2170,7 +2170,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.94 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.98 ...lineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2180,7 +2180,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.95 		\pgflineto
+l.99 		\pgflineto
                  {\pgfpoint{-0.7\ResRight}{-0.25\ResUp}} %Desenam unul din c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2189,7 +2189,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.95 		\pgflineto{\pgfpoint
+l.99 		\pgflineto{\pgfpoint
                            {-0.7\ResRight}{-0.25\ResUp}} %Desenam unul din c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2204,7 +2204,7 @@ Missing character: There is no 7 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.95 		\pgflineto{\pgfpoint{-0.7\ResRight}
+l.99 		\pgflineto{\pgfpoint{-0.7\ResRight}
                                           {-0.25\ResUp}} %Desenam unul din c...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2213,7 +2213,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.95 		\pgflineto{\pgfpoint{-0.7\ResRight}
+l.99 		\pgflineto{\pgfpoint{-0.7\ResRight}
                                           {-0.25\ResUp}} %Desenam unul din c...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2230,7 +2230,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.95 ...neto{\pgfpoint{-0.7\ResRight}{-0.25\ResUp}
+l.99 ...neto{\pgfpoint{-0.7\ResRight}{-0.25\ResUp}
                                                   } %Desenam unul din capete
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2239,7 +2239,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.95 ...neto{\pgfpoint{-0.7\ResRight}{-0.25\ResUp}
+l.99 ...neto{\pgfpoint{-0.7\ResRight}{-0.25\ResUp}
                                                   } %Desenam unul din capete
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2249,8 +2249,8 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.96 		\pgfmoveto
-                 {\pgfpoint{-1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (...
+l.100 		\pgfmoveto
+                  {\pgfpoint{-1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2258,8 +2258,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.96 		\pgfmoveto{\pgfpoint
-                           {-1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (...
+l.100 		\pgfmoveto{\pgfpoint
+                            {-1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2273,8 +2273,8 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.96 		\pgfmoveto{\pgfpoint{-1.0\ResRight}
-                                          {0.0\ResUp}}   %Ne pozitionam in (...
+l.100 		\pgfmoveto{\pgfpoint{-1.0\ResRight}
+                                           {0.0\ResUp}}   %Ne pozitionam in ...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2282,8 +2282,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.96 		\pgfmoveto{\pgfpoint{-1.0\ResRight}
-                                          {0.0\ResUp}}   %Ne pozitionam in (...
+l.100 		\pgfmoveto{\pgfpoint{-1.0\ResRight}
+                                           {0.0\ResUp}}   %Ne pozitionam in ...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2297,7 +2297,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.96 ...moveto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.100 ...oveto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-0....
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2306,7 +2306,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.96 ...moveto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
+l.100 ...oveto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}
                                                   }   %Ne pozitionam in (-0....
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2316,8 +2316,8 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
-l.97 	    \pgflineto
-                    {\pgfpoint{-0.7\ResRight}{0.25\ResUp}}  %Desenam celalal...
+l.101 	    \pgflineto
+                     {\pgfpoint{-0.7\ResRight}{0.25\ResUp}}  %Desenam celala...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2325,8 +2325,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.97 	    \pgflineto{\pgfpoint
-                              {-0.7\ResRight}{0.25\ResUp}}  %Desenam celalal...
+l.101 	    \pgflineto{\pgfpoint
+                               {-0.7\ResRight}{0.25\ResUp}}  %Desenam celala...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2340,8 +2340,8 @@ Missing character: There is no 7 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.97 	    \pgflineto{\pgfpoint{-0.7\ResRight}
-                                             {0.25\ResUp}}  %Desenam celalal...
+l.101 	    \pgflineto{\pgfpoint{-0.7\ResRight}
+                                              {0.25\ResUp}}  %Desenam celala...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2349,8 +2349,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.97 	    \pgflineto{\pgfpoint{-0.7\ResRight}
-                                             {0.25\ResUp}}  %Desenam celalal...
+l.101 	    \pgflineto{\pgfpoint{-0.7\ResRight}
+                                              {0.25\ResUp}}  %Desenam celala...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2365,7 +2365,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.97 ...ineto{\pgfpoint{-0.7\ResRight}{0.25\ResUp}
+l.101 ...neto{\pgfpoint{-0.7\ResRight}{0.25\ResUp}
                                                   }  %Desenam celalalt capat
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2374,7 +2374,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.97 ...ineto{\pgfpoint{-0.7\ResRight}{0.25\ResUp}
+l.101 ...neto{\pgfpoint{-0.7\ResRight}{0.25\ResUp}
                                                   }  %Desenam celalalt capat
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2384,12 +2384,12 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 93--98
+Overfull \hbox (20.0pt too wide) in paragraph at lines 97--102
 []
  []
 
 ! Undefined control sequence.
-l.100 		\pgfusepath
+l.104 		\pgfusepath
                    {draw}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2404,7 +2404,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 		\pgfusepath{d
+l.104 		\pgfusepath{d
                      raw}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2414,7 +2414,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no w in font nullfont!
 ! Undefined control sequence.
-l.104 \tikzset
+l.108 \tikzset
               {romanianVoltageSource/.style = {\circuitikzbasekey, /tikz/to ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2452,7 +2452,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.104 ...oltageSource/.style = {\circuitikzbasekey
+l.108 ...oltageSource/.style = {\circuitikzbasekey
                                                   , /tikz/to path=\romanianV...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2477,7 +2477,7 @@ Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 \TikzBipolePath #1#2->\pgf@circ@bipole@path 
                                             {#1}{#2}
-l.104 .../tikz/to path=\romanianVoltageSourcepath,
+l.108 .../tikz/to path=\romanianVoltageSourcepath,
                                                    l=#1}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2510,7 +2510,7 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no = in font nullfont!
 ! You can't use `macro parameter character #' in horizontal mode.
-l.104 ...z/to path=\romanianVoltageSourcepath, l=#
+l.108 ...z/to path=\romanianVoltageSourcepath, l=#
                                                   1}}
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
