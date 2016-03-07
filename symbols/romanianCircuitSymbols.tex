@@ -1,0 +1,104 @@
+\makeatletter
+
+\pgf@circ@Rlen = \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
+\def\TikzBipolePath#1#2{\pgf@circ@bipole@path{#1}{#2}}
+\makeatother
+
+\newlength{\ResUp} 
+\newlength{\ResRight}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%      Sursa de curent: simbol folosit in Romania    %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/romanianCurrentSource/height/.initial=.60}
+\ctikzset{bipoles/romanianCurrentSource/width/.initial=.60}
+
+%Definim noul simbol pentru SIC
+\pgfcircdeclarebipole{} 
+	%Offset pentru label-uri
+	{\ctikzvalof{bipoles/romanianCurrentSource/height}}
+	%Numele simbolului
+	{romanianCurrentSource}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/romanianCurrentSource/height}}
+	{\ctikzvalof{bipoles/romanianCurrentSource/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam cerculetul
+		\pgfpathellipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}{0}}
+		
+		%Desenam prima sagetica; trebuie sa avem grija ca dupa ce desenam un segment,
+		%urmatoarea linie va fi desenata relativ la capatul segmentului, nu fata de
+		%origine, deci sunt necesare cateva repozitionari
+		\pgfmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-1, 0)
+		\pgflineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
+		\pgflineto{\pgfpoint{0.3\ResRight}{-0.25\ResUp}} %Desenam unul din capete
+		\pgfmoveto{\pgfpoint{0.1\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-0.1, 0)
+	    \pgflineto{\pgfpoint{0.3\ResRight}{0.25\ResUp}}  %Desenam celalalt capat
+		
+		%Desenam ce-a de-a doua sagetica
+		\pgfmoveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}}  %Ne pozitionam in (0.2, 0)
+		\pgflineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}}  %Desenam corpul sagetii
+		\pgfmoveto{\pgfpoint{0.0\ResRight}{0.25\ResUp}}  %Ne repozitionam
+		\pgflineto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}}  %Desenam unul din capete
+		\pgflineto{\pgfpoint{0.0\ResRight}{-0.25\ResUp}} %Desenam celalat capat
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+
+%Ii definim un stil si o cale si...gata!
+\def\romanianCurrentSourcepath#1{\TikzBipolePath{romanianCurrentSource}{#1}}
+\tikzset{romanianCurrentSource/.style = {\circuitikzbasekey, /tikz/to path=\romanianCurrentSourcepath, l=#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%      Sursa de ctensiune: simbol folosit in Romania    %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/romanianVoltageSource/height/.initial=.60}
+\ctikzset{bipoles/romanianVoltageSource/width/.initial=.60}
+
+%Definim noul simbol pentru SIT
+\pgfcircdeclarebipole{}
+	%Stabilim grosimea standard a liniei pentru un element
+	{\ctikzvalof{bipoles/romanianVoltageSource/height}}
+	%Numele simbolului
+	{romanianVoltageSource}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/romanianVoltageSource/height}}
+	{\ctikzvalof{bipoles/romanianVoltageSource/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam cerculetul
+		\pgfpathellipse{\pgfpointorigin}{\pgfpoint{0}{\ResUp}}{\pgfpoint{\ResRight}{0}}
+		
+		%Desenam prima sagetica; trebuie sa avem grija ca dupa ce desenam un segment,
+		%urmatoarea linie va fi desenata relativ la capatul segmentului, nu fata de
+		%origine, deci sunt necesare cateva repozitionari
+		\pgfmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-1, 0)
+		\pgflineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
+		\pgflineto{\pgfpoint{-0.7\ResRight}{-0.25\ResUp}} %Desenam unul din capete
+		\pgfmoveto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}}   %Ne pozitionam in (-0.1, 0)
+	    \pgflineto{\pgfpoint{-0.7\ResRight}{0.25\ResUp}}  %Desenam celalalt capat
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+	\def\romanianVoltageSourcepath#1{\TikzBipolePath{romanianVoltageSource}{#1}}
+%Ii stabilim un nume, un posibil label si...gata!
+\tikzset{romanianVoltageSource/.style = {\circuitikzbasekey, /tikz/to path=\romanianVoltageSourcepath, l=#1}}

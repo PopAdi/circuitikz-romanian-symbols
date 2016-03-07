@@ -1,0 +1,15 @@
+\newcommand{\myqq@}{'}
+\catcode`\'=13
+\newcommand{'}[1]{\ifmmode {}^\prime \noexpand#1%
+ \else\ifx#1a\u{a}%
+ \else\ifx#1i\^{\i}%
+ \else\ifx#1s\c{s}%
+ \else\ifx#1t\c{t}%
+ \else\ifx#1A\u{A}%
+ \else\ifx#1I\^{I}%
+ \else\ifx#1S\c{S}%
+ \else\ifx#1T\c{T}%
+ \else\ifx#1"\myqq@%
+   \fi\fi\fi\fi\fi\fi\fi\fi\fi%
+ \fi}
+
