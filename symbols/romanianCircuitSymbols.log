@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.15)  27 MAR 2016 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.15)  27 MAR 2016 20:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -710,7 +710,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 ! Undefined control sequence.
 l.45 		\pgflineto
-                 {\pgfpoint{0.0\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
+                 {\pgfpoint{0.1\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -719,7 +719,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.45 		\pgflineto{\pgfpoint
-                           {0.0\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
+                           {0.1\ResRight}{0.0\ResUp}}   %Desenam corpul sagetii
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -728,11 +728,11 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.45 		\pgflineto{\pgfpoint{0.0\ResRight}
+l.45 		\pgflineto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -741,7 +741,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.45 		\pgflineto{\pgfpoint{0.0\ResRight}
+l.45 		\pgflineto{\pgfpoint{0.1\ResRight}
                                          {0.0\ResUp}}   %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -756,7 +756,7 @@ Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.45 ...flineto{\pgfpoint{0.0\ResRight}{0.0\ResUp}
+l.45 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -765,7 +765,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.45 ...flineto{\pgfpoint{0.0\ResRight}{0.0\ResUp}
+l.45 ...flineto{\pgfpoint{0.1\ResRight}{0.0\ResUp}
                                                   }   %Desenam corpul sagetii
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
