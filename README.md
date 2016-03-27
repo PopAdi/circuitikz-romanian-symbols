@@ -22,7 +22,7 @@ Downloadati acest proiect, dupa care copiati **folderul _symbols_** in **directo
     \end{circuitikz}
     \end{center}
 
-# Imagini cu elementele (in pozitie verticala, orizontala, diagonala)
+# Imagini cu elementele de circuit
 ![image-1](http://i.imgur.com/QRY37lX.png?1)
 ![image-2](http://i.imgur.com/EcdQGua.png?1)
 ![image-3](http://i.imgur.com/MUocjbG.png?1)
