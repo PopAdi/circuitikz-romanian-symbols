@@ -9,24 +9,18 @@ Downloadati acest proiect, dupa care copiati **folderul _symbols_** in **directo
 
 # Exemplu cod
     \begin{center}
-    \begin{circuitikz} 
-    \draw (0, 0) 
-          to[romanianVoltageSource, shape=circle, l=${e_1 = 4A}$, *-*] (4, 0)
-          to[romanianVoltageSource, l=${e_3}$, *-*] (4, -4)
-          (0, 0)
-          to[european resistor] (4, -4)
-          (4, 0)
-          to[european resistor] (8, 0)
-          to[romanianVoltageSource, l=${e_2 = 7V}$, *-*] (4, -4)
-          ;
-    \end{circuitikz}
+        \begin{circuitikz} 
+            \draw (0, 0) to[romanianVoltageSource, l=${e_1 = 4V}$, *-*] (4, 0);
+            \draw (5, 0) to[romanianCurrentSource, l=${j_1 = 4A}$, *-*] (9, 0);
+        
+            \draw (0, -3) to[romanianCVS, l=${e_1 = 4V}$, *-*] (4, -3);
+            \draw (5, -3) to[romanianCCS, l=${j_1 = 4A}$, *-*] (9, -3);
+        \end{circuitikz}
     \end{center}
 
 # Imagini cu elementele de circuit
-![image-1](http://i.imgur.com/QRY37lX.png?1)
-![image-2](http://i.imgur.com/EcdQGua.png?1)
-![image-3](http://i.imgur.com/MUocjbG.png?1)
-![image-4](http://i.imgur.com/vZ6DzWo.png?1)
+![image-1](http://i.imgur.com/Gpsw3x4.png)
+
 
 # Probleme de utilizare & erori
 Daca intampinati orice probleme in a utiliza acest pachet, ati descoperit erori sau vreti sa ajutati/stiti mai multe, puteti sa ma contactati pe urmatoarea adresa de mail: popadrian1996[at]gmail[dot]com.
