@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%                Realizator: Pop Adrian              %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\usetikzlibrary{backgrounds}
 \makeatletter
 
 \pgf@circ@Rlen = \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
@@ -205,3 +205,196 @@
 	\def\romanianCVS#1{\TikzBipolePath{romanianCVS}{#1}}
 %Ii stabilim un nume, un posibil label si...gata!
 \tikzset{romanianCVS/.style = {\circuitikzbasekey, /tikz/to path=\romanianCVS, l=#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%      Dioda Zenner 1 & 2: simbol folosit in Romania    %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/zDoZ/height/.initial=.60}
+\ctikzset{bipoles/zDoZ/width/.initial=1.00}
+  
+%Definim noul simbol pentru diodaZenner
+\pgfcircdeclarebipole{}
+	%Stabilim grosimea standard a liniei pentru un element
+	{\ctikzvalof{bipoles/zDoZ/height}}
+	%Numele simbolului
+	{zDoZ}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/zDoZ/height}}
+	{\ctikzvalof{bipoles/zDoZ/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam, fara alte explicatii, ca acum stim
+		\pgfmoveto{\pgfpoint{0.0\ResRight}{0.0\ResUp}}
+		\pgflineto{\pgfpoint{1.0\ResRight}{0.6\ResUp}}
+		\pgflineto{\pgfpoint{1.0\ResRight}{-0.6\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{0.6\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{-0.6\ResUp}}
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+	\def\zDoZ#1{\TikzBipolePath{zDoZ}{#1}}
+%Ii stabilim un nume, un posibil label si...gata!
+\tikzset{zDoZ/.style = {\circuitikzbasekey, /tikz/to path=\zDoZ, l=#1}}
+
+
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/zDoZZ/height/.initial=.60}
+\ctikzset{bipoles/zDoZZ/width/.initial=1.00}
+  
+%Definim noul simbol pentru diodaZennerInversa
+\pgfcircdeclarebipole{}
+	%Stabilim grosimea standard a liniei pentru un element
+	{\ctikzvalof{bipoles/zDoZZ/height}}
+	%Numele simbolului
+	{zDoZZ}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/zDoZZ/height}}
+	{\ctikzvalof{bipoles/zDoZZ/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam, fara alte explicatii, ca acum stim
+		\pgfmoveto{\pgfpoint{0.0\ResRight}{0.0\ResUp}}
+		\pgflineto{\pgfpoint{1.0\ResRight}{-0.6\ResUp}}
+		\pgflineto{\pgfpoint{1.0\ResRight}{0.6\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{-0.6\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{0.6\ResUp}}
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+	\def\zDoZZ#1{\TikzBipolePath{zDoZZ}{#1}}
+%Ii stabilim un nume, un posibil label si...gata!
+\tikzset{zDoZZ/.style = {\circuitikzbasekey, /tikz/to path=\zDoZZ, l=#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%      Condensator neliniar: simbol folosit in Romania    %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/Cn/height/.initial=.40}
+\ctikzset{bipoles/Cn/width/.initial=1.00}
+
+%Definim noul simbol pentru condNeliniar
+\pgfcircdeclarebipole{}
+	%Stabilim grosimea standard a liniei pentru un element
+	{\ctikzvalof{bipoles/Cn/height}}
+	%Numele simbolului
+	{Cn}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/Cn/height}}
+	{\ctikzvalof{bipoles/Cn/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam dreptunghiul
+		\pgfpathrectanglecorners{\southwest}{\northeast}
+		
+		%Desenam cele doua linii paralele
+		\pgfmoveto{\pgfpoint{0.2\ResRight}{0.8\ResUp}}
+		\pgflineto{\pgfpoint{0.2\ResRight}{-0.8\ResUp}}
+		
+		\pgfmoveto{\pgfpoint{-0.2\ResRight}{0.8\ResUp}}
+		\pgflineto{\pgfpoint{-0.2\ResRight}{-0.8\ResUp}}
+		
+		%Desenam liniile de pe mijloc
+		\pgfmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}}
+		\pgflineto{\pgfpoint{0.2\ResRight}{0.0\ResUp}}
+		
+		\pgfmoveto{\pgfpoint{-0.2\ResRight}{0.0\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{0.0\ResUp}}
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+		
+		%Desenam chestiuta neagra
+		\pgfsetlinewidth{5.0\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		\pgfmoveto{\pgfpoint{-1.0\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{-1.0\ResUp}}
+		\pgfmoveto{\pgfpoint{-0.9\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-0.9\ResRight}{-1.0\ResUp}}
+		\pgfmoveto{\pgfpoint{-0.8\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-0.8\ResRight}{-1.0\ResUp}}
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+	\def\Cn#1{\TikzBipolePath{Cn}{#1}}
+%Ii stabilim un nume, un posibil label si...gata!
+\tikzset{Cn/.style = {\circuitikzbasekey, /tikz/to path=\Cn, l=#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%      Bobina neliniara: simbol folosit in Romania    %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Declaram dimensiunile initiale
+\ctikzset{bipoles/Ln/height/.initial=.40}
+\ctikzset{bipoles/Ln/width/.initial=1.00}
+
+%Definim noul simbol pentru condNeliniar
+\pgfcircdeclarebipole{}
+	%Stabilim grosimea standard a liniei pentru un element
+	{\ctikzvalof{bipoles/Ln/height}}
+	%Numele simbolului
+	{Ln}
+	%Dimensiunile "cutiei" in care va sta
+	{\ctikzvalof{bipoles/Ln/height}}
+	{\ctikzvalof{bipoles/Ln/width}}
+	{
+		%Stabilim grosimea standard a liniei pentru un element
+		\pgfsetlinewidth{\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		
+		%Definim ancorele
+		\pgfextracty{\ResUp}{\northeast}
+		\pgfextractx{\ResRight}{\southwest}
+		
+		%Desenam dreptunghiul
+		\pgfpathrectanglecorners{\southwest}{\northeast}
+	
+		%Desenam spirele
+		\pgfmoveto{\pgfpoint{1.0\ResRight}{0.0\ResUp}}
+		\pgflineto{\pgfpoint{0.80\ResRight}{0.0\ResUp}}
+		\pgfpatharc{0}{-180}{\ResRight/6}
+		\pgfpatharc{0}{-180}{\ResRight/6}
+		\pgfpatharc{0}{-180}{\ResRight/6}
+		\pgfpatharc{0}{-180}{\ResRight/6}
+		\pgflineto{\pgfpoint{-0.8\ResRight}{0.0\ResUp}}
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+		
+		%Desenam chestiuta neagra
+		\pgfsetlinewidth{5.3\pgfkeysvalueof{/tikz/circuitikz/bipoles/thickness}\pgfstartlinewidth}
+		\pgfmoveto{\pgfpoint{-1.0\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-1.0\ResRight}{-1.0\ResUp}}
+		\pgfmoveto{\pgfpoint{-0.9\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-0.9\ResRight}{-1.0\ResUp}}
+		\pgfmoveto{\pgfpoint{-0.8\ResRight}{1.0\ResUp}}
+		\pgflineto{\pgfpoint{-0.8\ResRight}{-1.0\ResUp}}
+
+		
+		%Pentru desenare, sa folosim functia draw
+		\pgfusepath{draw}
+	}
+	\def\Ln#1{\TikzBipolePath{Ln}{#1}}
+%Ii stabilim un nume, un posibil label si...gata!
+\tikzset{Ln/.style = {\circuitikzbasekey, /tikz/to path=\Ln, l=#1}}
