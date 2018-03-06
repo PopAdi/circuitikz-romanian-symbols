@@ -4,7 +4,9 @@
 \usetikzlibrary{backgrounds}
 \makeatletter
 
-\pgf@circ@Rlen = \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
+%% \pgf@circ@Rlen = \pgfkeysvalueof{/tikz/circuitikz/bipoles/length}
+%% Commenting the line above apparently solved the missing "Missing number, treated as zero" error
+
 \def\TikzBipolePath#1#2{\pgf@circ@bipole@path{#1}{#2}}
 \makeatother
 
